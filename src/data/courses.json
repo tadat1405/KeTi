@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "code": "BLG",
+    "name": "Bé làm game",
+    "color": "#ef6b3e",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 2,
+    "code": "DG",
+    "name": "DigiGirl Steam Art",
+    "color": "#d47da9",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 3,
+    "code": "DS",
+    "name": "DigiStyle Multimedia",
+    "color": "#6ca8c6",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 4,
+    "code": "KBRP SPIKE",
+    "name": "Khám phá Robotics Spike",
+    "color": "#769b86",
+    "description": null,
+    "lessonCount": 42
+  },
+  {
+    "id": 5,
+    "code": "KPRB",
+    "name": "Khám phá Robotics",
+    "color": "#5d87a8",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 6,
+    "code": "MNCN",
+    "name": "Mầm non công nghệ",
+    "color": "#d69b4e",
+    "description": null,
+    "lessonCount": 160
+  },
+  {
+    "id": 7,
+    "code": "SNLG",
+    "name": "Siêu nhân làm game",
+    "color": "#ef6b3e",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 8,
+    "code": "SNLTA",
+    "name": "Siêu nhân lập trình app",
+    "color": "#5e9b98",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 9,
+    "code": "SNLTW",
+    "name": "Siêu nhân lập trình web",
+    "color": "#52778c",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 10,
+    "code": "TGVVTM",
+    "name": "Thế giới vạn vật thông minh",
+    "color": "#8297a0",
+    "description": null,
+    "lessonCount": 240
+  },
+  {
+    "id": 11,
+    "code": "XCTRB",
+    "name": "Xưởng chế tạo robot",
+    "color": "#7866a8",
+    "description": null,
+    "lessonCount": 240
+  }
+]

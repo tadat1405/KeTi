@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-be-vietnam), "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #1e3a5f;
+  --color-muted: #64748b;
+  --color-line: #d7e4f5;
+  --color-brand: #3b82f6;
+  --color-wash: #f3f8fe;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  background: #f3f8fe;
+}
