@@ -1,19 +1,19 @@
 import type { Course } from "@/lib/courses";
 
 const ICONS: Record<string, string> = {
-  BLG: "/course-icons/icon-blg.png",
-  DG: "/course-icons/icon-dg.png",
-  DS: "/course-icons/icon-ds.png",
-  "KBRP SPIKE": "/course-icons/icon-kbrp.png",
-  KPRB: "/course-icons/icon-kprb.png",
-  MNCN: "/course-icons/icon-mncn.png",
-  SNLG: "/course-icons/icon-snlg.png",
-  SNLTA: "/course-icons/icon-snlta.png",
-  SNLTW: "/course-icons/icon-snltw.png",
-  TGVVTM: "/course-icons/icon-tgvvtm.png",
-  XCTRB: "/course-icons/icon-xctrb.png",
+  BLG: "/course-icons/cartoon-blg.png",
+  DG: "/course-icons/cartoon-dg.png",
+  DS: "/course-icons/cartoon-ds.png",
+  "KBRP SPIKE": "/course-icons/cartoon-kbrp.png",
+  KPRB: "/course-icons/cartoon-kprb.png",
+  MNCN: "/course-icons/cartoon-mncn.png",
+  SNLG: "/course-icons/cartoon-snlg.png",
+  SNLTA: "/course-icons/cartoon-snlta.png",
+  SNLTW: "/course-icons/cartoon-snltw.png",
+  TGVVTM: "/course-icons/cartoon-tgvvtm.png",
+  XCTRB: "/course-icons/cartoon-xctrb.png",
 };
 
 export function courseIcon(course: Course) {
-  return ICONS[course.code] ?? "/course-icons/icon-blg.png";
+  return ICONS[course.code] ?? "/course-icons/cartoon-blg.png";
 }
