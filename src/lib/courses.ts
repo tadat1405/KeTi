@@ -12,3 +12,7 @@ export type Course = {
 export function getCourses(): Course[] {
   return courses;
 }
+
+export function formatCount(n: number) {
+  return n.toLocaleString("vi-VN");
+}

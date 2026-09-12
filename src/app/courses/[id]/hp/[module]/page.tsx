@@ -7,7 +7,7 @@ import {
   getModuleLessons,
   groupLessonsByModule,
 } from "@/lib/curriculum";
-import { getCourses } from "@/lib/courses";
+import { getCourses, formatCount } from "@/lib/courses";
 
 type PageProps = {
   params: Promise<{ id: string; module: string }>;
@@ -48,19 +48,11 @@ export default async function ModulePage({ params }: Readonly<PageProps>) {
 
   return (
     <Workspace course={course} modules={modules} currentModule={moduleNumber}>
-      <div className="flex h-full min-h-0 flex-col">
-        <div className="flex items-end justify-between gap-4 border-b border-line px-6 py-4">
-          <div>
-            <h1 className="text-lg font-semibold">Học phần {moduleNumber}</h1>
-            <p className="mt-1 text-sm text-muted">
-              {lessonCount} bài · {items.length} tài liệu
-            </p>
-          </div>
-        </div>
-        <div className="min-h-0 flex-1 overflow-auto px-6 py-4">
-          <LessonList items={items} />
-        </div>
-      </div>
+      <LessonList
+        items={items}
+        heading={`Học phần ${moduleNumber}`}
+        meta={`${lessonCount} bài · ${formatCount(items.length)} tài liệu`}
+      />
     </Workspace>
   );
 }
