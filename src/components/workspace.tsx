@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import type { Course } from "@/lib/courses";
@@ -23,7 +24,7 @@ export function Workspace({
         </Link>
 
         <div className="mt-5 flex items-center gap-3">
-          <img
+          <Image
             src={courseIcon(course)}
             alt=""
             width={56}
